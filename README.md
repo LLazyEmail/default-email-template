@@ -8,7 +8,7 @@ HTML/CSS code from:
 -  https://github.com/dudeonthehorse/normalize.email.css
 - http://htmlemailboilerplate.com/
  https://github.com/seanpowell/Email-Boilerplate
-
+- https://github.com/g13nn/Email-Framework
 First version of "renderer" from https://github.com/revivek/oy/blob/master/src/utils/HTML4.js
 
 
