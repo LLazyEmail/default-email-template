@@ -10,3 +10,8 @@ HTML/CSS code from:
  https://github.com/seanpowell/Email-Boilerplate
 
 First version of "renderer" from https://github.com/revivek/oy/blob/master/src/utils/HTML4.js
+
+
+Checkout other repositories, related to emails
+- https://github.com/atherdon/markdown-to-email
+- https://github.com/LLazyEmail/free-email-templates-to-try
