@@ -1,5 +1,7 @@
 # default-template1
 
+### yarn add javascript-email-templates
+
 So, i'm continuing to separate code into different and independent pieces.
 I also want to test our code with different settings/environment.
 
