@@ -1,10 +1,9 @@
-;
-
 import objectAssign from 'object-assign';
 
 const renderTemplate = (element, options, generateCustomTemplate) => {
   const bodyContent = ReactDOMServer.renderToStaticMarkup(element);
   const minifiedHeadCSS = new CleanCSS().minify(options.headCSS || '').styles;
+  
   options = objectAssign({}, {
     lang: sanitizer.escape(options.lang),
     dir: sanitizer.escape(options.dir),
@@ -13,6 +12,7 @@ const renderTemplate = (element, options, generateCustomTemplate) => {
     headCSS: CSS.raiseOnUnsafeCSS(minifiedHeadCSS, 'headCSS'),
     bgColor: sanitizer.escape(options.bgColor)
   }, {bodyContent: bodyContent});
+
   return generateCustomTemplate ? (
     generateCustomTemplate(options)
   ) : HTML4.generateDefaultTemplate(options);
