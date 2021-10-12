@@ -1,9 +1,12 @@
-import templateOne from './templates/template';
-import templateTwo from './templates/template2';
-import templateThree from './templates/template3';
+import emailOne from './templates/template';
+import emailTwo from './templates/template2';
+import emailThree from './templates/template3';
+// import emailFour from './templates/template4';
+
 
 export default {
-    templateOne,
-    templateTwo,    
-    templateThree
+    emailOne,
+    emailTwo,    
+    emailThree,
+    // emailFour
 };

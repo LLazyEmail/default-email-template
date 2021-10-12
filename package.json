@@ -1,6 +1,6 @@
 {
   "name": "javascript-email-templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exporting few simple email templates that can be used as installed package",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
