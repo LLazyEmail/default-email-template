@@ -5,6 +5,13 @@
 So, i'm continuing to separate code into different and independent pieces.
 I also want to test our code with different settings/environment.
 
+here we exporting 3 templates at this moment. you can install it and use for your simple nodejs/nodemailer project.
+```
+ emailOne
+ emailTwo    
+ emailThree
+```
+
 
 HTML/CSS code from:
 -  https://github.com/dudeonthehorse/normalize.email.css
