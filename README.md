@@ -1,4 +1,4 @@
-# default-template1
+# Default Email Templates
 
 ### yarn add javascript-email-templates
 
