@@ -5,7 +5,8 @@
 So, i'm continuing to separate code into different and independent pieces.
 I also want to test our code with different settings/environment.
 
-here we exporting 3 templates at this moment. you can install it and use for your simple nodejs/nodemailer project.
+Here we exporting 3 templates at this moment. You can install it and use for your simple nodejs/nodemailer project.
+
 ```
  emailOne
  emailTwo    
@@ -26,6 +27,29 @@ First version of "renderer" from https://github.com/revivek/oy/blob/master/src/u
 Checkout other repositories, related to emails
 - https://github.com/atherdon/markdown-to-email
 - https://github.com/LLazyEmail/free-email-templates-to-try
+
+
+```bash
+├── xxx
+│   ├── xxx
+│   │   ├── **/*.xxx
+│   ├── xxx
+│   ├── images
+│   ├── xxx
+│   ├── js
+│   │   ├── **/*.js
+│   └── xxx
+├── dist (or build)
+├── 
+├── 
+├── 
+├── 
+├── README.md
+├── package.json
+├── 
+└── .gitignore
+```
+
 
 
 ## Story behind building it
